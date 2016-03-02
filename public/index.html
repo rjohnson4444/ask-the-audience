@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ask the Audience</title>
+  </head>
+  <body>
+    <h1>Index</h1>
+    <div id="connection-count"></div>
+    <div id="status-message"></div>
+
+    <div id="choices">
+      <button>A</button>
+      <button>B</button>
+      <button>C</button>
+      <button>D</button>
+    </div>
+
+    <div>
+      <ul id="vote-count">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div id="current-vote"></div>
+    <!-- make sure JS is at the body of the body! -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
+
