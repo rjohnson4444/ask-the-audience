@@ -1,0 +1,20 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": "real-time app to poll audience",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjohnson4444/ask-the-audience.git"
+  },
+  "author": "Ryan Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjohnson4444/ask-the-audience/issues"
+  },
+  "homepage": "https://github.com/rjohnson4444/ask-the-audience#readme"
+}
